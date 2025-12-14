@@ -544,15 +544,6 @@
     <model DisplayAs="Poly Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" name="E2-3" PolyStrings="1" Controller="Fence 44" parm2="100" RotateY="90" WorldPosX="173.2480" WorldPosY="52.9979" WorldPosZ="4.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" NumPoints="3" PointData="-0.049003,9.088898,0.000000,14.125304,-60.454311,0.000000,-50.114552,-71.533562,0.000000" cPointData="" Locked="1" versionNumber="7" StartChannel="!Fence 44:1201">
       <ControllerConnection Protocol="ws2811" nullNodes="1" colorOrder="BGR" Port="11"/>
     </model>
-    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm2="50" parm3="1" LayoutGroup="Default" name="E-Trellis-4" Controller="Fence 44" RotateY="90" WorldPosX="163.4244" WorldPosY="49.6545" WorldPosZ="0.0000" X2="-6.680100" Y2="48.949100" Z2="0.000000" Locked="1" versionNumber="7" StartChannel="!Fence 44:1">
-      <ControllerConnection Protocol="ws2811" colorOrder="BGR" Port="5" nullNodes="1"/>
-    </model>
-    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm2="50" parm3="1" LayoutGroup="Default" name="E-Trellis-3" Controller="Fence 44" RotateY="90" WorldPosX="165.2850" WorldPosY="50.0381" WorldPosZ="0.0000" X2="-6.680100" Y2="48.949100" Z2="0.000000" Locked="1" versionNumber="7" StartChannel="!Fence 44:151">
-      <ControllerConnection Protocol="ws2811" colorOrder="BGR" Port="6" nullNodes="1"/>
-    </model>
-    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm2="50" parm3="1" LayoutGroup="Default" name="E-Trellis-2" Controller="Fence 44" RotateY="90" WorldPosX="167.1430" WorldPosY="50.4743" WorldPosZ="0.0000" X2="-6.680100" Y2="48.949100" Z2="0.000000" Locked="1" versionNumber="7" StartChannel="!Fence 44:301">
-      <ControllerConnection Protocol="ws2811" colorOrder="BGR" Port="7" nullNodes="1"/>
-    </model>
     <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm2="50" parm3="1" LayoutGroup="Default" name="D3-4" Controller="Fence 43" RotateY="90" WorldPosX="168.6338" WorldPosY="111.4991" WorldPosZ="2.0000" X2="57.555099" Y2="-16.743200" Z2="0.000000" Locked="1" versionNumber="7" StartChannel="!Fence 43:1651">
       <ControllerConnection Protocol="ws2811" Port="12" nullNodes="1" colorOrder="BGR"/>
     </model>
@@ -685,8 +676,17 @@
     <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm2="50" parm3="1" LayoutGroup="Default" name="D3-1" Controller="Fence 43" RotateY="90" WorldPosX="168.6338" WorldPosY="111.4991" WorldPosZ="8.0000" X2="58.971699" Y2="-17.584299" Z2="0.000000" Locked="1" versionNumber="7" StartChannel="!Fence 43:1201">
       <ControllerConnection Protocol="ws2811" Port="9" nullNodes="1" colorOrder="BGR"/>
     </model>
-    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm2="50" parm3="1" LayoutGroup="Default" name="E-Trellis-1" Controller="Fence 44" RotateY="90" WorldPosX="169.1145" WorldPosY="50.8929" WorldPosZ="0.0000" X2="-6.680100" Y2="48.949100" Z2="0.000000" Locked="1" versionNumber="7" StartChannel="!Fence 44:451">
-      <ControllerConnection Protocol="ws2811" colorOrder="BGR" Port="8" nullNodes="1"/>
+    <model DisplayAs="Poly Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm2="50" parm3="1" LayoutGroup="Default" name="E-Trellis-1" Controller="Fence 44" WorldPosX="164.6264" WorldPosY="92.3179" WorldPosZ="32.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" NumPoints="4" PointData="6.491196,-34.392780,-25.000000,6.491196,-34.392780,0.000000,-0.000000,0.000031,0.000000,-0.000000,0.000031,-25.000000" cPointData="" versionNumber="7" StartChannel="!Fence 44:451">
+      <ControllerConnection Protocol="ws2811" Port="8"/>
+    </model>
+    <model DisplayAs="Poly Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm2="50" parm3="1" LayoutGroup="Default" name="E-Trellis-2" Controller="Fence 44" WorldPosX="162.4530" WorldPosY="91.9424" WorldPosZ="32.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" NumPoints="4" PointData="6.491196,-34.392780,-25.000000,6.491196,-34.392780,0.000000,-0.000000,0.000031,0.000000,-0.000000,0.000031,-25.000000" cPointData="" versionNumber="7" StartChannel="!Fence 44:301">
+      <ControllerConnection Protocol="ws2811" Port="7"/>
+    </model>
+    <model DisplayAs="Poly Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm2="50" parm3="1" LayoutGroup="Default" name="E-Trellis-3" Controller="Fence 44" WorldPosX="160.4876" WorldPosY="91.5717" WorldPosZ="32.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" NumPoints="4" PointData="6.491196,-34.392780,-25.000000,6.491196,-34.392780,0.000000,-0.000000,0.000031,0.000000,-0.000000,0.000031,-25.000000" cPointData="" versionNumber="7" StartChannel="!Fence 44:151">
+      <ControllerConnection Protocol="ws2811" Port="6"/>
+    </model>
+    <model DisplayAs="Poly Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm2="50" parm3="1" LayoutGroup="Default" name="E-Trellis-4" Controller="Fence 44" WorldPosX="158.5227" WorldPosY="91.2005" WorldPosZ="32.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" NumPoints="4" PointData="6.491196,-34.392780,-25.000000,6.491196,-34.392780,0.000000,-0.000000,0.000031,0.000000,-0.000000,0.000031,-25.000000" cPointData="" versionNumber="7" StartChannel="!Fence 44:1">
+      <ControllerConnection Protocol="ws2811" Port="5"/>
     </model>
     <model DisplayAs="Poly Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" name="E2-4" PolyStrings="1" Controller="Fence 44" parm2="100" RotateY="90" WorldPosX="173.2480" WorldPosY="52.9979" WorldPosZ="2.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" NumPoints="3" PointData="-0.049003,9.088898,0.000000,14.125304,-60.454311,0.000000,-50.114552,-71.533562,0.000000" cPointData="" Locked="1" versionNumber="7" StartChannel="!Fence 44:1501">
       <ControllerConnection Protocol="ws2811" nullNodes="1" colorOrder="BGR" Port="12"/>
@@ -968,9 +968,9 @@
     <backgroundBrightness value="80"/>
     <backgroundAlpha value="100"/>
     <backgroundImage value=""/>
+    <LayoutMode3D value="1"/>
     <previewWidth value="2752"/>
     <previewHeight value="1536"/>
-    <LayoutMode3D value="1"/>
   </settings>
   <colors>
     <DisabledEffect Red="200" Green="200" Blue="0"/>
