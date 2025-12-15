@@ -22,16 +22,15 @@
     <ColorPalette>C_BUTTON_Palette1=#FF0000,C_BUTTON_Palette2=#FF8040,C_BUTTON_Palette3=#FFFF00,C_BUTTON_Palette4=#00FF00,C_BUTTON_Palette5=#00FFFF,C_BUTTON_Palette6=#0080FF,C_BUTTON_Palette7=#0000FF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette6=1,C_CHECKBOX_Palette7=1,C_CHECKBOX_Palette8=1</ColorPalette>
     <ColorPalette>C_BUTTON_Palette1=#FF0000,C_BUTTON_Palette2=#FF8040,C_BUTTON_Palette3=#FFFF00,C_BUTTON_Palette4=#00FF00,C_BUTTON_Palette5=#00FFFF,C_BUTTON_Palette6=#0080FF,C_BUTTON_Palette7=#0000FF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette6=1,C_CHECKBOX_Palette7=1,C_CHECKBOX_Palette8=1,C_SLIDER_SparkleFrequency=1</ColorPalette>
     <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette6=1</ColorPalette>
-    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1</ColorPalette>
     <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_SLIDER_Brightness=233</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1</ColorPalette>
   </ColorPalettes>
   <EffectDB>
     <Effect>T_TEXTCTRL_Fadeout=6.375</Effect>
     <Effect>T_TEXTCTRL_Fadein=12.775</Effect>
-    <Effect>B_CHOICE_BufferStyle=Per Preview,B_CHOICE_PerPreviewCamera=Looking West,E_CHECKBOX_Bars_3D=0,E_CHECKBOX_Bars_Gradient=1,E_CHECKBOX_Bars_Highlight=0,E_CHECKBOX_Bars_UseFirstColorForHighlight=0,E_CHOICE_Bars_Direction=Right,E_SLIDER_Bars_BarCount=4,E_TEXTCTRL_Bars_Cycles=13.6</Effect>
+    <Effect>E_CHECKBOX_Bars_3D=0,E_CHECKBOX_Bars_Gradient=1,E_CHECKBOX_Bars_Highlight=0,E_CHECKBOX_Bars_UseFirstColorForHighlight=0,E_CHOICE_Bars_Direction=Right,E_SLIDER_Bars_BarCount=4,E_TEXTCTRL_Bars_Cycles=13.6</Effect>
     <Effect>B_CHOICE_PerPreviewCamera=Looking West,T_TEXTCTRL_Fadeout=6.375</Effect>
     <Effect>B_CHOICE_PerPreviewCamera=Looking West,T_TEXTCTRL_Fadein=12.775</Effect>
-    <Effect>B_CHOICE_BufferStyle=Per Preview,B_CHOICE_PerPreviewCamera=Looking West,E_CHECKBOX_Mirror_Wave=0,E_CHOICE_Fill_Colors=Palette,E_CHOICE_Wave_Direction=Right to Left,E_CHOICE_Wave_Type=Triangle,E_SLIDER_Number_Waves=1843,E_SLIDER_Thickness_Percentage=20,E_SLIDER_Wave_Height=33,E_SLIDER_Wave_YOffset=0,E_TEXTCTRL_Wave_Speed=2.91</Effect>
     <Effect></Effect>
     <Effect>B_CHOICE_BufferStyle=Vertical Per Strand,B_CHOICE_BufferTransform=Rotate 180,E_CHECKBOX_PerNode=1,E_CHECKBOX_UsePalette=1,E_TEXTCTRL_Candle_FlameAgility=7,E_TEXTCTRL_Candle_WindBaseline=30,E_TEXTCTRL_Candle_WindCalmness=2,E_TEXTCTRL_Candle_WindVariability=5,T_TEXTCTRL_Fadein=6.375,T_TEXTCTRL_Fadeout=12.775</Effect>
     <Effect>E_CHECKBOX_Duplicate_Override_Buffer=0,E_CHECKBOX_Duplicate_Override_Color=0,E_CHECKBOX_Duplicate_Override_Palette=0,E_CHECKBOX_Duplicate_Override_Timing=0,E_CHOICE_Duplicate_Model=TreeTopper/N-S Plane,E_SPINCTRL_Duplicate_Layer=1</Effect>
@@ -921,35 +920,33 @@
         <Effect ref="1" name="Off" id="1" startTime="170875" endTime="183650" palette="0"/>
       </EffectLayer>
       <EffectLayer>
-        <Effect ref="2" name="Bars" startTime="0" endTime="183650" palette="1"/>
+        <Effect ref="2" name="Bars" selected="1" startTime="0" endTime="183650" palette="1"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GigaTreeAndTopper">
       <EffectLayer>
-        <Effect ref="3" name="Off" selected="1" startTime="0" endTime="6375" palette="0"/>
+        <Effect ref="3" name="Off" startTime="0" endTime="6375" palette="0"/>
         <Effect ref="4" name="Off" id="1" startTime="170875" endTime="183650" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GigaTree">
-      <EffectLayer>
-        <Effect ref="5" name="Wave" startTime="0" endTime="183700" palette="2"/>
-      </EffectLayer>
+      <EffectLayer/>
     </Element>
     <Element type="model" name="TreeTopper">
       <EffectLayer>
-        <Effect ref="6" name="Off" startTime="0" endTime="183650" palette="3"/>
+        <Effect ref="5" name="On" startTime="0" endTime="183650" palette="2"/>
       </EffectLayer>
       <SubModelEffectLayer name="N-S Plane">
-        <Effect ref="7" name="Candle" startTime="0" endTime="183650" palette="4"/>
+        <Effect ref="6" name="Candle" startTime="0" endTime="183650" palette="3"/>
       </SubModelEffectLayer>
       <SubModelEffectLayer name="W-E Plane">
-        <Effect ref="8" name="Duplicate" startTime="0" endTime="183650" palette="3"/>
+        <Effect ref="7" name="Duplicate" startTime="0" endTime="183650" palette="4"/>
       </SubModelEffectLayer>
       <SubModelEffectLayer name="NW-SE Plane">
-        <Effect ref="8" name="Duplicate" startTime="0" endTime="183650" palette="3"/>
+        <Effect ref="7" name="Duplicate" startTime="0" endTime="183650" palette="4"/>
       </SubModelEffectLayer>
       <SubModelEffectLayer name="NE-SW Plane">
-        <Effect ref="8" name="Duplicate" startTime="0" endTime="183650" palette="3"/>
+        <Effect ref="7" name="Duplicate" startTime="0" endTime="183650" palette="4"/>
       </SubModelEffectLayer>
     </Element>
     <Element type="model" name="A1-1">
