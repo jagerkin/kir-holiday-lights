@@ -1,4 +1,5 @@
 .DS_Store
+._*
 *.lms.bak
 *.lms.lcs
 *~
@@ -8,10 +9,6 @@ xlights/Backup/
 xlights/*.fseq
 Media/*
 
-# macOS metadata / resource forks
-._*
-.DS_Store
 .vscode
-
-# Vim swap files
+local
 *.swp
